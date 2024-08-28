@@ -12,11 +12,6 @@ import addRecipeView from './views/addRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-//with parcel we can do this
-//if (module.hot) {
-//  module.hot.accept();
-//}
-
 const controlRecipes = async function () {
   try {
     //getting the hash of the recipe
