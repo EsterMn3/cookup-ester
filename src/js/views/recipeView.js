@@ -1,6 +1,5 @@
 import View from './View.js';
 import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
 
 class RecipeView extends View {
   //parent element will be unique for each view
