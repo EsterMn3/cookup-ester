@@ -23,7 +23,7 @@ class AddRecipeView extends View {
     //this keyword here points to the btnopen, so we have to create another function tooglewindow
     //and give it the this that we want
     this._btnOpen.addEventListener('click', this.toggleWindow.bind(this)); //now this points to the current object
-    console.log(this);
+    //console.log(this);
   }
   _addHandlerHideWindow() {
     this._btnClose.addEventListener('click', this.toggleWindow.bind(this));

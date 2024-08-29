@@ -59,7 +59,7 @@ export const loadSearchResults = async function (query) {
     state.search.query = query;
     //with the key in the url we add in the search results our own recipes also
     const data = await AJAX(`${API_URL}?search=${query}&key=${KEY}`);
-    console.log(data);
+    //console.log(data);//{status: 'success', results: 45, data: {…}} you can see all 45 recipes
     //we build a new array where the property names are different
     state.search.results = data.data.recipes.map(rec => {
       //returning the new object
@@ -136,7 +136,7 @@ const clearBookmarks = function () {
 //making a request to the api = async function
 export const uploadRecipe = async function (newRecipe) {
   try {
-    console.log(Object.entries(newRecipe));
+    //console.log(Object.entries(newRecipe)); //getting the data in an array
 
     //the first element of the ingredients array property, should start with ingredient and
     //the second element should not be an empty string
