@@ -84,11 +84,11 @@ Forkify is a recipe web app using the [Forkify API](https://forkify-api.herokuap
 
 ### Flowchart
 
-<img src='./src/img/forkify-flowchart.png' alt='flowchart' >
+<img src='forkify-flowchart-part-3.png' alt='flowchart' >
 
 ### Architecture
 
-<img src='./src/img/forkify-architecture-recipe-loading.png' alt='architecture' >
+<img src='forkify-architecture-recipe-loading.png' alt='architecture' >
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
