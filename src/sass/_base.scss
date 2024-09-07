@@ -13,8 +13,8 @@ $gradient: linear-gradient(to right bottom, $color-grad-1, $color-grad-2);
 
 $bp-large: 78.15em; // 1250px
 $bp-medium: 61.25em; // 980px
-$bp-small: 37.5em; // 600px
-$bp-smallest: 31.25em; // 500px
+$bp-small: 46.37em; // 750px
+$bp-smallest: 36.8em; // 590px
 
 * {
   margin: 0;
@@ -33,6 +33,12 @@ html {
 
   @media only screen and (max-width: $bp-medium) {
     font-size: 50%;
+  }
+  @media only screen and (max-width: $bp-small) {
+    font-size: 40%;
+  }
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 30%;
   }
 }
 
