@@ -10,13 +10,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://modern-forkify.parcel.app/">
-    <img src="./src/img/favicon.png" alt="Logo" height="80">
+  <a href="https://cookup-ester.netlify.app/">
+    <img src="./src/img/CookUp_icon.webp" alt="Logo" height="80">
   </a>
-  <h1 align="center">Forkify</h1>
+  <h1 align="center">CookUp</h1>
 
   <p align="center">
-    <a href="https://forkify-ester.netlify.app/">View Demo</a>
+    <a href="https://cookup-ester.netlify.app/">View Demo</a>
   </p>
 </div>
 
@@ -48,11 +48,11 @@
 
 ## About The Project
 
-Forkify is a recipe web app using the [Forkify API](https://forkify-api.herokuapp.com/v2) to allow users to search, view, modify, bookmark and add recipes.
+CookUp is a recipe web app using the [API](https://forkify-api.herokuapp.com/v2) to allow users to search, view, modify, bookmark and add recipes.
 
 - Available search queries : [Queries](https://forkify-api.herokuapp.com/phrases.html)
 
-![Forkify preview](./src/img/preview.png)
+![CookUp preview](./src/img/preview.png)
 
 ### Features
 
@@ -76,7 +76,7 @@ Forkify is a recipe web app using the [Forkify API](https://forkify-api.herokuap
 - JavaScript
 - Parcel
 - Babel
-- Forkify API
+- API
 - Libraries
   - fracty
 
@@ -84,11 +84,11 @@ Forkify is a recipe web app using the [Forkify API](https://forkify-api.herokuap
 
 ### Flowchart
 
-<img src='img/forkify-flowchart-part-3.png' alt='flowchart' >
+<img src='img/cookup-flowchart-part-3.png' alt='flowchart' >
 
 ### Architecture
 
-<img src='img/forkify-architecture-recipe-loading.png' alt='architecture' >
+<img src='img/cookup-architecture-recipe-loading.png' alt='architecture' >
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,7 +98,7 @@ Forkify is a recipe web app using the [Forkify API](https://forkify-api.herokuap
 
 ## Getting Started
 
-This project require some prequesites and dependenscies to be installed, you can view it online using this [demo](https://forkify-ester.netlify.app/). or you can find the instructions below
+This project require some prequesites and dependenscies to be installed, you can view it online using this [demo](https://cookup-ester.netlify.app/). or you can find the instructions below
 
 > To get a local copy, follow these simple steps :
 
@@ -106,12 +106,12 @@ This project require some prequesites and dependenscies to be installed, you can
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/EsterMn3/forkify-ester.git
+   git clone https://github.com/EsterMn3/cookup-ester.git
    ```
 2. Go to project folder
 
 ```bash
-cd forkify
+cd cookup
 ```
 
 3. install dependencies
@@ -129,7 +129,7 @@ npm start
 #### Tree structure
 
 ```
-forkify
+cookup
 │   .gitignore
 │   .prettierrc
 │   index.html
@@ -140,8 +140,8 @@ forkify
 └───src
     ├───img
     │       favicon.png
-    │       forkify-architecture-recipe-loading.png
-    │       forkify-flowchart.png
+    │       cookup-architecture-recipe-loading.png
+    │       cookup-flowchart.png
     │       icons.svg
     │       logo.png
     │       preview.png
